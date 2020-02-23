@@ -10,7 +10,7 @@ const Result = ({score, playAgain}) => (
             <img class = "top" src = {sapling} alt = "small tree"/>
         </section></div>
 
-        <div className = "score">You scored {score}. You earned a tree!</div>
+    <div className = "score">You scored {score}. You earned a tree!</div>
             
         
 
