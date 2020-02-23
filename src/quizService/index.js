@@ -1,124 +1,124 @@
 const qBank = [
   {
     question:
-      "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
-    answers: ["Richard Branson", "Alan Sugar", "Donald Trump", "Bill Gates"],
-    correct: "Richard Branson",
+      "What is a budget?   ",
+    answers: ["A plan to save money over a year",  "A plan to invest money each month", "A plan for managing income and expenses over a specific period of time", "A plan that shows what to spend money on over a specific period of time"],
+    correct: "A plan for managing income and expenses over a specific period of time",
     questionId: "099099"
   },
   {
     question:
-      'Where is the train station "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch"?',
-    answers: ["Wales", "Moldova", "Czech Republic", "Denmark"],
-    correct: "Wales",
+      "Which factors make up your total expenses per month? ",
+    answers: ["Fixed expenses (i.e. rent) + food cost", "Fixed expenses (i.e. utilities) + flexible expenses (i.e. car payments)", "Disposable income (i.e. car payments)+ elastic costs (i.e. food cost)", "Fixed expenses (i.e. rent) + flexible expenses (i.e. utilities)"],
+    correct: "Fixed expenses (i.e. rent) + flexible expenses (i.e. utilities)",
     questionId: "183452"
   },
   {
     question:
-      "Which company did Valve cooperate with in the creation of the Vive?",
-    answers: ["HTC", "Oculus", "Google", "Razer"],
-    correct: "HTC",
+      "What portion of your money is disposable income?",
+    answers: ["Total income - total expenses", "Total income - income tax", "Total income - fixed expenses", "Total income - flexible expenses"],
+    correct: "Total income - total expenses",
     questionId: "267908"
   },
   {
-    question: "What's the name of Batman's  parents?",
+    question: "Who is qualified to create budgets?",
     answers: [
-      "Thomas & Martha",
-      "Joey & Jackie",
-      "Jason & Sarah",
-      "Todd & Mira"
+      "Financial planners",
+      "Accountants",
+      "Anyone who properly educates themselves",
+      "Only wealthy individuals"
     ],
-    correct: "Thomas & Martha",
+    correct: "Anyone who properly educates themselves",
     questionId: "333247"
   },
   {
-    question: "What is the most common surname Wales?",
-    answers: ["Jones", "Williams", "Davies", "Evans"],
-    correct: "Jones",
+    question: "What is an interest rate?",
+    answers: ["A fixed rate an individual pays on a loan with consistent frequency", "A malleable rate earned on savings accounts", "An amount either paid or earned on a sum of money consistently over a set period of time", "The initial fee an individual pays to invest in a business"],
+    correct: "An amount either paid or earned on a sum of money consistently over a set period of time",
     questionId: "496293"
   },
   {
     question:
-      "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+      "Which factors affect national interest rates?",
     answers: [
-      "Demolition",
-      "The Dream Team",
-      "The Bushwhackers",
-      "The British Bulldogs"
+      "Rates are affected by the central bank through monetary policy",
+      "Rates are affected by supply and demand",
+      "Rates are affected by reserve requirements",
+      "Rates are affected by all of these factors"
     ],
-    correct: "Demolition",
+    correct: "Rates are affected by all of these factors",
     questionId: "588909"
   },
   {
     question:
-      'What name represents the letter "M" in the NATO phonetic alphabet?',
-    answers: ["Mike", "Matthew", "Mark", "Max"],
-    correct: "Mike",
+      'What is an Annual Percentage Rate (APR)?',
+    answers: ["The cost of borrowing on consumer loans per year", "The yearly interest rate of a bond", "The prime rate offered by banks", "The interest rate subtracted from the discount rate"],
+    correct: "The cost of borrowing on consumer loans per year",
     questionId: "648452"
   },
   {
-    question: "What is the first book of the Old Testament?",
-    answers: ["Genesis", "Exodus", "Leviticus", "Numbers"],
-    correct: "Genesis",
+    question: "In which situation will the most interest be accrued?",
+    answers: ["A fixed interest rate of 1.5%", "A compounding interest rate of 1.5%", "A discount rate of 1.5%", "A fixed interest rate of 1.55%"],
+    correct: "A compounding interest rate of 1.5%",
     questionId: "786649"
   },
   {
     question:
-      "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
-    answers: ["Key", "Sword", "Pen", "Cellphone"],
-    correct: "Key",
+      "What is the definition of a savings account?",
+    answers: ["A portion of a checking account that an individual doesn’t spend", "A separate account from the checking account held in a bank or credit union", "An account held in in a bank or credit union that accrues interest on the balance", "A 401K"],
+    correct: "An account held in in a bank or credit union that accrues interest on the balance",
     questionId: "839754"
   },
   {
     question:
-      "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
+      "What is a 401K?",
     answers: [
-      "Cabbage Patch Kids",
-      "Transformers",
-      "Care Bears",
-      "Rubik’s Cube"
+      "A savings account dedicated to retirement",
+      "A savings account dedicated to emergencies",
+      "A savings account used by nonprofits",
+      "A savings account that holds $401,000"
     ],
-    correct: "Cabbage Patch Kids",
+    correct: "A savings account dedicated to retirement",
     questionId: "98390"
   },
   {
-    question: "What does a funambulist walk on?",
-    answers: ["A Tight Rope", "Broken Glass", "Balls", "The Moon"],
-    correct: "A Tight Rope",
+    question: "How can employers affect 401Ks?",
+    answers: ["Matching contributions", "Contribution limits", "Determination of completion", "Employers don’t affect 401ks"],
+    correct: "Matching contributions",
     questionId: "1071006"
   },
   {
-    question: "In past times, what would a gentleman keep in his fob pocket?",
-    answers: ["Watch", "Money", "Keys", "Notebook"],
-    correct: "Watch",
+    question: "Many Americans do not have an emergency savings account. What are the risks associated with this?",
+    answers: ["A surprise medical complication could cause an individual to acquire debt", "A car accident may drain an individual’s checking account", "A natural disaster may cause residential damage that an individual is unable to afford the repairs for", "These are all risky situations that should convince me to try my hardest to keep a savings account if it is currently within my financial capabilities"],
+    correct: "These are all risky situations that should convince me to try my hardest to keep a savings account if it is currently within my financial capabilities",
     questionId: "1174154"
   },
   {
-    question: "Area 51 is located in which US state?",
-    answers: ["Nevada", "Arizona", "New Mexico", "Utah"],
-    correct: "Nevada",
+    question: "How do credit cards work?",
+    answers: ["Credit cards all allow an individual to spend an inexhaustible sum of money on the caveat that they eventually pay it back", "Credit cards allow an individual to spend money directly from their checking account", "Credit cards allow individuals to spend an amount of money determined by the associated bank and pay it back in a specified amount of time", "Credit cards allow individuals to spend unlimited sums of money"],
+    correct: "Credit cards allow individuals to spend an amount of money determined by the associated bank and pay it back in a specified amount of time",
     questionId: "1226535"
   },
   {
-    question: "How would one say goodbye in Spanish?",
-    answers: ["Adiós", " Hola", "Au Revoir", "Salir"],
-    correct: "Adiós",
+    question: "Which factor affects an individual's credit score?",
+    answers: ["Making payments consistently before a specified deadline", "The amount of time an individual has had a credit card", "Quantity of debt", "All of these factors and more"],
+    correct: "All of these factors and more",
     questionId: "1310938"
   },
   {
-    question: "What is the largest organ of the human body?",
-    answers: ["Skin", "Heart", "large Intestine", "Liver"],
-    correct: "Skin",
+    question: "How can an individual realistically avoid falling into the credit-debt cycle?",
+    answers: ["Consistently and punctuallypay off credit cards in full", "Use credit cards frequently", "Keep an emergency savings account", "Never use a credit card"],
+    correct: "Consistently and punctuallypay off credit cards in full",
     questionId: "1436873"
   },
   {
-    question: "Which sign of the zodiac is represented by the Crab?",
-    answers: ["Cancer", "Libra", "Virgo", "Sagittarius"],
-    correct: "Cancer",
+    question: "Why would an individual purposefully go into debt?",
+    answers: ["Nobody purposefully goes into debt", "Debt isn't under the control of the individual", "Productive debt can turn a profit, but it can also be risky", "All of these answers are correct"],
+    correct: "Productive debt can turn a profit, but it can also be risky",
     questionId: "1515110"
   },
   {
-    question: "On a dartboard, what number is directly opposite No. 1?",
+    question: "What is identity theft?",
     answers: ["19", "20", "12", "15"],
     correct: "19",
     questionId: "1642728"
