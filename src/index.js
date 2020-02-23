@@ -28,11 +28,11 @@ class Quizbee extends React.Component{
     computeAnswer = (answer, correctAnswer) => {
         if (answer === correctAnswer) {
             this.setState({
-                score: this.score + 1
+                score: this.state.score + 1
             });
         }
         this.setState({
-            responses: this.responses < 5 ? this.state.responses + 1 : 5
+            responses: this.state.responses < 5 ? this.state.responses + 1 : 5
         });
     };
     componentDidMount(){
@@ -54,7 +54,7 @@ class Quizbee extends React.Component{
                     />)
                 ) }
 
-                {/* {this.state.responses === 5 ? (<h2>{this.state.score}</h2>): null} */}
+                {this.state.responses === 5 ? (<h2>{this.state.score}</h2>): null}
             </div>
         );
     };
